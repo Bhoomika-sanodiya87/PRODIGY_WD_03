@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://t4.ftcdn.net/jpg/08/19/31/13/240_F_819311378_xFeiO1ooWG065zwP0bDK2o5rCwqOOntg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    background-color: #7AC5CD;
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0,0,0,0.1);
+}
+.game--title {
+    padding-top: 40px;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cell {
+    font-family: "Poppins", sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 50px;
+}
+button {
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+button:hover {
+    transition: 0.50s;
+    background-color: #000;
+}
